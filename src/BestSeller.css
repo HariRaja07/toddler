@@ -1,0 +1,40 @@
+.BScontainer {
+    padding: 20px;
+  }
+  
+  .BScard {
+    background-color: rgb(173, 208, 246);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .BScard:hover {
+    transform: scale(1.05);
+  }
+  
+  .BScategory-image {
+    width: 100%;
+    height: 100%; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the area */
+  }
+  
+  .BScategory-name {
+    position: absolute; /* Positioning relative to the image container */
+  bottom: 10px; /* Position 10px from the bottom */
+  left: 0;
+  right: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white; /* Change color for better visibility */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Optional shadow for better readability */
+  margin: 0; /* Remove margin */
+  padding: 0 10px; /* Add padding for spacing */
+  width: 200px;
+  }
+
+  .image-container {
+    position: relative; /* Position relative for absolute children */
+    height: 100%; /* Ensure the container takes full height */
+  }

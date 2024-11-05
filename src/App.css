@@ -1,0 +1,13 @@
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+  .scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .header {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+  
